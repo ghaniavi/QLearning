@@ -3,7 +3,7 @@ import numpy as np
 
 # Open dataset
 def open_dataset():
-    data = np.genfromtxt("DataTugas3ML2019.txt")[::-1]
+    data = np.genfromtxt("Data.txt")[::-1]
     return data
 #  Create Q matrix
 def create_qmatrix():
